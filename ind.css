@@ -38,3 +38,21 @@ body{
 .image-gallery .image-box img:hover{
     transform: scale(1.2);
 }
+@media only screen   
+and (min-device-width : 280px)   
+and (max-device-width : 480px)  
+{ 
+    .image-gallery .image-box img{
+        aspect-ratio: 4/3;
+        width: 100%;
+        object-fit:inherit;
+    }
+}  
+@media only screen   
+and (min-device-width : 470px)   
+and (max-device-width : 780px)  {
+    .image-gallery .image-box img{
+        aspect-ratio: 4/3;
+        width: 100%;
+        object-fit:inherit;
+    }
